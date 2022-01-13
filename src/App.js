@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Search from './views/Search/Search';
+// import Search from './views/Search/Search';
+import Buscar from './views2/buscar/Buscar';
 
 function App() {
   return (
-   <Search/>
+   <Buscar/>
   );
 }
 
