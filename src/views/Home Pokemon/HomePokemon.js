@@ -13,7 +13,7 @@ const HomePokemon=()=> {
     const {getPokemons, pokemon} = usePokemonStore(state => 
         ({getPokemons: state.getPokemons, pokemon: state.pokemon}), shallow) //con shallow no se renderiza el store si se renderiza algo de la pagina (siempre ponerlo)
 
-    const {idPrueba} = usePokemonStore.getState() 
+    const {idPrueba} = usePokemonStore.getState() //Podemos acceder al store de esta manera, pero si se actualiza un valor no se nos va a actualizar
     console.log(idPrueba);
  
 
